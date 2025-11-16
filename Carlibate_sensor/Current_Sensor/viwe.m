@@ -1,7 +1,7 @@
 clear; clc; close all;
 
 % โหลดข้อมูล
-load('V_current01.mat');
+load('current02.mat');
 
 % ถ้ามี timeseries อยู่ในตัวแปร data
 if isa(data, 'timeseries')
